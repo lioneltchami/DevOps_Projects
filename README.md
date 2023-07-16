@@ -6,7 +6,7 @@
 ![text](https://github.com/apotitech/photos_document_md/raw/master/src/common/photos/screen-0.jpg "text")
 #
 #
-![text](https://github.com/apotitech/photos_document_md/raw/master/src/common/photos/potians.gif "text")
-#
-#
 ![text](https://github.com/apotitech/photos_document_md/raw/master/src/common/photos/hhandsonn.gif "text")
+#
+#
+![text](https://github.com/apotitech/photos_document_md/raw/master/src/common/photos/potians.gif "text")
