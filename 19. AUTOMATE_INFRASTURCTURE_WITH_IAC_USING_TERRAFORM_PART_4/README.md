@@ -1,12 +1,12 @@
 # Automate Infrastructure With IaC using Terraform – Terraform Cloud
 
-### [Link to Code](https://github.com/Micah-Shallom/RCR-PACKER-TERRAFORM-SETUP.git)
+### [Link to Code](https://github.com/apotitech/RCR-PACKER-TERRAFORM-SETUP.git)
 #
 #
 
-[In the previous project](https://github.com/Micah-Shallom/RCR-MODULAR-TERRAFORM-ARCHITECTURE.git), we refactored our terraform codes into modules and as a result the introduction of modules into our codebase helped save time and reduce costly errors by re-using configuration written either by yourself, other members of your team, or other Terraform practitioners who have published modules for you to use.
+[In the previous project](https://github.com/apotitech/RCR-MODULAR-TERRAFORM-ARCHITECTURE.git), we refactored our terraform codes into modules and as a result the introduction of modules into our codebase helped save time and reduce costly errors by re-using configuration written either by yourself, other members of your team, or other Terraform practitioners who have published modules for you to use.
 
-[In project 15](https://github.com/Micah-Shallom/DevOps_Projects/tree/main/15.AWS_CLOUD_SOLUTION_FOR_2_COMPANY_WEBSITES_USING_A_REVERSE_PROXY_TECHNOLOGY), we can recall that to setup a Launch Template in our architecture, we require AMIs that are preconfigured with necessary packages for our applications to run on specific servers.
+[In project 15](https://github.com/apotitech/DevOps_Projects/tree/main/15.AWS_CLOUD_SOLUTION_FOR_2_COMPANY_WEBSITES_USING_A_REVERSE_PROXY_TECHNOLOGY), we can recall that to setup a Launch Template in our architecture, we require AMIs that are preconfigured with necessary packages for our applications to run on specific servers.
 
 ![](../15.AWS_CLOUD_SOLUTION_FOR_2_COMPANY_WEBSITES_USING_A_REVERSE_PROXY_TECHNOLOGY/img/architecture.png)
 
@@ -21,7 +21,7 @@ Packer is an open source tool for creating identical machine images for multiple
 
 ## Step 1. Creating Bastion, Nginx, Tooling and Wordpress AMIs 
 #
-We write packer code which helps us create AMIs for each of the following mentioned servers. A sample of the code can be found here: [packer code setup](https://github.com/Micah-Shallom/RCR-PACKER-TERRAFORM-SETUP/tree/main/AMI)
+We write packer code which helps us create AMIs for each of the following mentioned servers. A sample of the code can be found here: [packer code setup](https://github.com/apotitech/RCR-PACKER-TERRAFORM-SETUP/tree/main/AMI)
 
 For each of the following `.pkr.hcl` files, we run the following commands
 ```

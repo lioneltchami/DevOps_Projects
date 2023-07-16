@@ -95,7 +95,7 @@ The following resources were setup:
 - Target Groups
 - 6 EC2 Instances 3 Master 3 Worker
 
-# [Link to the terraform code ](https://github.com/Micah-Shallom/k8s-tf-network-setup.git)
+# [Link to the terraform code ](https://github.com/apotitech/k8s-tf-network-setup.git)
 #
 
 ## PREPARE THE SELF-SIGNED CERTIFICATE AUTHORITY AND GENERATE TLS CERTIFICATES

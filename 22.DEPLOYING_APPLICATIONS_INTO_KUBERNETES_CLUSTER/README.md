@@ -1,5 +1,5 @@
 # DEPLOYING APPLICATIONS INTO KUBERNETES CLUSTER
-## **[Link to the project code implementation](https://github.com/Micah-Shallom/K8s_Project.git)**
+## **[Link to the project code implementation](https://github.com/apotitech/K8s_Project.git)**
 #
 ![](./img/1.cluster_setup.jpg)
 ![](./img/2.tooling-service.jpg)

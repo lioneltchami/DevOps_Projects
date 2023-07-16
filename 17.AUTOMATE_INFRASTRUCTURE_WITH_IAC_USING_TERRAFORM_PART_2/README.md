@@ -1,7 +1,7 @@
 ## FURTHER IMPLEMENTATION OF INFRASTRUCTURE AUTOMATION WITH IAC USING TERRAFORM
 #
 #
-[Link To Code Implementation](https://github.com/Micah-Shallom/RCR-TERRAFORM-ARCHITECTURE.git)
+[Link To Code Implementation](https://github.com/apotitech/RCR-TERRAFORM-ARCHITECTURE.git)
 #
 #
 

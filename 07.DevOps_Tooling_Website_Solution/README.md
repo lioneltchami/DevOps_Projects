@@ -1,5 +1,5 @@
 # DevOps-Website-Solution
-In previous project [Implementing Web Solution (https://github.com/Micah-Shallom/Implementing-Wordpress-Web-Solution)] I implemented a WordPress based solution that is ready to be filled with content and can be used as a full fledged website or blog. Moving further I will add some more value to my solution so that a member of a DevOps team could utilize.
+In previous project [Implementing Web Solution (https://github.com/apotitech/Implementing-Wordpress-Web-Solution)] I implemented a WordPress based solution that is ready to be filled with content and can be used as a full fledged website or blog. Moving further I will add some more value to my solution so that a member of a DevOps team could utilize.
 
 In this project,, I will be introducing the concept of file sharing for multiple servers to share the same web content and also a database for storing data related to the website.
 
@@ -25,7 +25,7 @@ On this server we attach 2 EBS volumes 10GB each as external storage to our inst
 - Webserver content will be stores in /apps, webserver logs in /logs and /opt will be used by Jenkins
 
 ![lvm_created_on_nfs_server](./img/2.lvm_created_on_nfs_server.jpg)
-Steps taken to create logical volumes are shown in this [project](https://github.com/Micah-Shallom/Implementing-Wordpress-Web-Solution).
+Steps taken to create logical volumes are shown in this [project](https://github.com/apotitech/Implementing-Wordpress-Web-Solution).
 
 
 Installing nfs-server on the nfs instance and ensures that it starts on system reboot

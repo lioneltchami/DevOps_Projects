@@ -156,7 +156,7 @@ Create an RDS Instance for mysql 8.*.*
 - To create Launch templates and target groups later on, we will need to setup AMI containing configurations to be done on this respective servers.
 
 #
-## **[Configurations for this servers can be found on this repository](https://github.com/Micah-Shallom/RCR-Project-Configuration.git)**
+## **[Configurations for this servers can be found on this repository](https://github.com/apotitech/RCR-Project-Configuration.git)**
 #
 
 ![](./img/16.for-ami-build.png)

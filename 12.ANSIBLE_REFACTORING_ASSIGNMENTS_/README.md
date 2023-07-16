@@ -2,7 +2,7 @@
 
 ## Ansible Refactoring and Static Assignments (IMPORTS AND ROLES)
 
-In the previous project, I implemented CI/CD and Configuration Managment solution on the Development Servers using Ansible [Ansible_Automate_Project](https://github.com/Micah-Shallom/DevOps_Projects/tree/main/11.ANSIBLE%E2%80%93AUTOMATE_PROJECT_7_TO_10).
+In the previous project, I implemented CI/CD and Configuration Managment solution on the Development Servers using Ansible [Ansible_Automate_Project](https://github.com/apotitech/DevOps_Projects/tree/main/11.ANSIBLE%E2%80%93AUTOMATE_PROJECT_7_TO_10).
 
 
 ### **In this project, I will be extending the functionality of this architecture and introducing configurations for UAT environment.**
@@ -48,7 +48,7 @@ Now your Jenkins pipeline is more neat and clean.
 ## Step 2 – Refactor Ansible code by importing other playbooks into site.yml
 #
 
-In [Project 11](https://github.com/Micah-Shallom/DevOps_Projects/tree/main/11.ANSIBLE%E2%80%93AUTOMATE_PROJECT_7_TO_10) , I wrote all tasks in a single playbook `common.yml`, now it is pretty simple set of instructions for only 2 types of OS, but imagine you have many more tasks and you need to apply this playbook to other servers with different requirements. In this case, you will have to read through the whole playbook to check if all tasks written there are applicable and is there anything that you need to add for certain server/OS families. Very fast it will become a tedious exercise and your playbook will become messy with many commented parts. Your DevOps colleagues will not appreciate such organization of your codes and it will be difficult for them to use your playbook.
+In [Project 11](https://github.com/apotitech/DevOps_Projects/tree/main/11.ANSIBLE%E2%80%93AUTOMATE_PROJECT_7_TO_10) , I wrote all tasks in a single playbook `common.yml`, now it is pretty simple set of instructions for only 2 types of OS, but imagine you have many more tasks and you need to apply this playbook to other servers with different requirements. In this case, you will have to read through the whole playbook to check if all tasks written there are applicable and is there anything that you need to add for certain server/OS families. Very fast it will become a tedious exercise and your playbook will become messy with many commented parts. Your DevOps colleagues will not appreciate such organization of your codes and it will be difficult for them to use your playbook.
 
 - In playbooks folder, create a new file and name it `site.yml` – This file will now be considered as an entry point into the entire infrastructure configuration.
 
@@ -229,5 +229,5 @@ Test the webserver configurations on the browser
 ![](./img/15.success.png)
 
 #
-# Code containing all configuration can be found in the [ansible-config-mgt repository](https://github.com/Micah-Shallom/ansible-config-mgt)
+# Code containing all configuration can be found in the [ansible-config-mgt repository](https://github.com/apotitech/ansible-config-mgt)
 #

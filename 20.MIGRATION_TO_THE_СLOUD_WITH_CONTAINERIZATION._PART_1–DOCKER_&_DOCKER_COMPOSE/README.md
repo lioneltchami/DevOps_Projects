@@ -145,7 +145,7 @@ Try to access your application via port exposed from a container
 
 ## PRACTICE TASK 
 #
-**[Code Containing Jenkinsfile and Dockerfile](https://github.com/Micah-Shallom/php-todo-proj20.git)**
+**[Code Containing Jenkinsfile and Dockerfile](https://github.com/apotitech/php-todo-proj20.git)**
 #
 ## Practice Task №1 – Implement a POC to migrate the PHP-Todo app into a containerized application.
 

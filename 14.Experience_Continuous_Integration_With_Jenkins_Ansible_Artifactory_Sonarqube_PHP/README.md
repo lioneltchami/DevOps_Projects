@@ -62,7 +62,7 @@ ssh-add <path-to-private-key>
 ### Install the following packages and dependencies on the server:
 - Install git : sudo apt install git 
 
-- Clone down the Asible-config-mgt repository: git clone https://github.com/Micah-Shallom/ansible-config-mgt.git
+- Clone down the Asible-config-mgt repository: git clone https://github.com/apotitech/ansible-config-mgt.git
 
 - Install Jenkins and its dependencies. Steps to install Jenkins can be found here
  
@@ -140,7 +140,7 @@ pipeline {
 
       stage('Checkout SCM') {
          steps{
-            git branch: 'main', url: 'https://github.com/Micah-Shallom/ansible-config-mgt.git'
+            git branch: 'main', url: 'https://github.com/apotitech/ansible-config-mgt.git'
          }
        }
 
@@ -296,7 +296,7 @@ pipeline {
 
     stage('Checkout SCM') {
       steps {
-            git branch: 'main', url: 'https://github.com/Micah-Shallom/php-todo.git'
+            git branch: 'main', url: 'https://github.com/apotitech/php-todo.git'
       }
     }
 

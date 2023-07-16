@@ -4,7 +4,7 @@ In this project, we introduced the concept of modularization and packaged the te
 
 The implementation of terraform modularization for this project can be found in this repository
 
->>> >>> **[modular_code_repo](https://github.com/Micah-Shallom/RCR-MODULAR-TERRAFORM-ARCHITECTURE)**
+>>> >>> **[modular_code_repo](https://github.com/apotitech/RCR-MODULAR-TERRAFORM-ARCHITECTURE)**
 
 ![](./img/completed.jpg)
 ![](./img/2.create.jpg)
